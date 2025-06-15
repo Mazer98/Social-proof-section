@@ -3,3 +3,164 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+@font-face {
+    font-family: spartan;
+    src: url(fonts/LeagueSpartan-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    height: 100vh;
+    font-family: spartan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-weight: bolder;
+    font-size: 4rem;
+
+}
+
+p {
+    color: gray;
+}
+
+.container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 1600px;
+}
+
+
+.top-left {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+
+.top-right {
+   
+    padding: 15px;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    line-height: 1.5rem;
+}
+
+.top {
+    display: flex;
+    gap: 250px;
+    
+}
+
+
+
+.top-right-first , .top-right-second , .top-right-third {
+    display: flex;
+    gap: 10px;
+}
+
+
+.bottom {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.bottom-first , .bottom-second , .bottom-third {
+    background-color: hsl(300, 43%, 22%);
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    line-height: 1.3rem;
+    
+    
+}
+
+
+.bottom-second {
+    margin-top: 30px;
+}
+
+.bottom-third {
+    margin-top: 60px;
+}
+
+.bottom span {
+
+    color:hsl(333, 80%, 67%) ;
+    font-weight: bolder;
+}
+
+.bottom h2 {
+    color: white;
+}
+
+.bottom p {
+    color: white;
+    font-weight: 200;
+}
+
+img {
+    width: 45px;
+    border-radius: 50%;
+}
+
+
+.top img {
+    width: 25px;
+}
+
+
+.top-right p {
+    color:hsl(300, 43%, 22%);
+    font-weight: bolder;
+}
+
+
+.bottom p {
+    margin-top: 30px;
+    font-weight: 300;
+}
+
+
+.top-right-second {
+    margin-left: 50px;
+}
+
+.top-right-third {
+    margin-left: 100px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+h2 div {
+    color: hsl(333, 80%, 67%);
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+.attribution {
+    text-align: center;
+}
